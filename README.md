@@ -22,7 +22,7 @@ Proyeksi akhir ke vocab_size (100) menghasilkan logits [batch, seqlen, vocab] , 
 
 
 ### Rumus Implementasi Positional Encoding Sinusoidal
-<img width="953" height="392" alt="image" src="https://github.com/user-attachments/assets/4df3fa73-37d6-4631-ab51-d4ec21b7ad14" />
+<img width="763" height="314" alt="Screenshot 2025-10-04 163041" src="https://github.com/user-attachments/assets/53e00f07-8918-4526-a78e-fb0968323173" />
 **Keterangan:** 
 - *pos* = posisi token dalam sequence (0, 1, 2, …).
 - *i* = indeks dimensi (0, 1, 2, …).
