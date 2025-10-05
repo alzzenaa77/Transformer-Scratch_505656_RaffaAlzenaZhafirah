@@ -28,11 +28,27 @@ Proyeksi akhir ke vocab_size (100) menghasilkan logits [batch, seqlen, vocab] , 
 - *i* = indeks dimensi (0, 1, 2, …).
 - *dmodel*​ = ukuran dimensi embedding (misalnya 64).
 - Untuk dimensi genap (*2i*) digunakan sinus, sedangkan untuk dimensi ganjil (*2i+1*) digunakan cosinus.
+  
+## Tahapan Menjalankan Program </br>
+- **Dependensi** </br>
+Python 3.12.11 </br>
+Numpy </br>
 
-### Output Program</br>
+- **Cara Menjalankan**</br>
+  1. Clone repository </br>
+  git clone [https://github.com/alzzenaa77/TransformerScratch_505656_RaffaAlzenaZhafirah](https://github.com/alzzenaa77/Transformer-Scratch_505656_RaffaAlzenaZhafirah.git) </br>
+  cd TransformerScratch_505656_RaffaAlzenaZhafirah </br>
+  2.  Jalankan program di Google Colab atau terminal lokal </br>
+
+- **Input & Output** </br>
+a. Input: token IDs sederhana (array integer) di sini input yang diberikan:  [[ 1  3  5  7  9 11]]. </br>
+b. Output Program</br>
 <img width="566" height="184" alt="Screenshot 2025-10-04 163937" src="https://github.com/user-attachments/assets/04238ec4-2ec8-45f5-be21-4822eb4fe4a0" />
 
-### Kesimpulan
+## Kesimpulan
 Implementasi arsitektur Transformer decoder-only sederhana dengan komponen utama, yaitu token embedding, positional encoding sinusoidal, scaled dot-product attention, causal masking, multi-head self-attention, feed-forward network, residual connection + layer normalization, dan output layer. Model menerima input token [1, 3, 5, 7, 9, 11] dengan seq_len=6 dan menghasilkan output berupa logits berukuran [1, 6, vocab_size] serta distribusi probabilitas token berikutnya [1, vocab_size]. Hasil pengujian menunjukkan dimensi konsisten, distribusi softmax valid (jumlah = 1.0), dan causal mask bekerja benar untuk menjaga sifat autoregressive.
+
+
+
 
 
