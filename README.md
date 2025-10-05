@@ -1,0 +1,2 @@
+**Tugas Individu: Implementasi Arsitektur Transformer dari Nol dengan NumPy**
+Mengimplementasikan arsitektur Transformer from scratch menggunakan NumPy, tanpa bantuan library deep learning seperti PyTorch atau TensorFlow untuk membangun alur forward pass dari sebuah decoder-only Transformer (GPT-style), mulai dari embedding hingga menghasilkan distribusi probabilitas untuk prediksi token berikutnya
